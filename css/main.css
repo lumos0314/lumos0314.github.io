@@ -1776,53 +1776,6 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
-.post-widgets {
-  border-top: 1px solid #eee;
-  padding-top: 9px;
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.post-widgets .post-meta-divider {
-  height: 25px;
-  color: #999;
-}
-.wp_rating {
-  height: 20px;
-  margin-right: 10px;
-  text-align: center;
-  line-height: 20px;
-  padding-top: 6px;
-}
-.social-like {
-  font-size: 14px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.vk_like {
-  width: 85px;
-  height: 21px;
-  padding-top: 7px;
-  align-self: center;
-}
-.fb_like {
-  height: 30px;
-  align-self: center;
-}
-.bdsharebuttonbox {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-.bdsharebuttonbox a {
-  border: none;
-}
-.bdshare-slide-button-box a {
-  border: none;
-}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1975,7 +1928,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d1baff;
+  background: #ff5812;
 }
 .feed-link,
 .chat {
@@ -2151,6 +2104,25 @@ pre .javascript .function {
 }
 .post-toc .nav .active-current > a:hover {
   color: #87daff;
+}
+.sidebar-active + #sidebar-dimmer {
+  transform: translateX(-100%);
+}
+@media (max-width: 767px) {
+  .sidebar-active + #sidebar-dimmer {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+  }
+}
+#sidebar-dimmer {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
 }
 .footer {
   font-size: 14px;
