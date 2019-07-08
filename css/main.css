@@ -1741,7 +1741,7 @@ pre .javascript .function {
 #qr p {
   text-align: center;
 }
-#qr > div:hover p {
+#qr #if hexo-config('reward_settings.animation') > div:hover p {
   animation: roll 0.1s infinite linear;
 }
 @-moz-keyframes roll {
@@ -1915,7 +1915,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8a1696;
+  background: #b5406f;
 }
 .feed-link,
 .chat {
@@ -2740,11 +2740,4 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
-}
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
