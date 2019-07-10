@@ -61,7 +61,7 @@
   <entry>
     <title><![CDATA[实现Visual Studio Code界面毛玻璃效果]]></title>
     <url>%2F2019%2F06%2F20%2FVSCode%E6%AF%9B%E7%8E%BB%E7%92%83%2Findex%2F</url>
-    <content type="text"><![CDATA[开启毛玻璃效果❌以及霓虹主题✅效果： 关键字高亮主题必要插件首先需要下载 Synthwave ‘86 vscode 设置1terminal.integrated.rendererType": "dom"]]></content>
+    <content type="text"><![CDATA[VisualStudioCode真的是一款强大的编程软件（拥有众多类型的扩展extension，如果它拥有一个漂亮简洁的UI界面，那势必会使生产力翻倍！本文介绍如何实现VS Code界面毛玻璃效果~ 开启毛玻璃效果❌以及霓虹主题✅效果： 关键字高亮主题必要插件首先需要下载 Synthwave ‘86 vscode 设置1terminal.integrated.rendererType": "dom"]]></content>
       <tags>
         <tag>VS Code</tag>
       </tags>
