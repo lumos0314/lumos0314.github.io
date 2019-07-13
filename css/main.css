@@ -1912,7 +1912,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #daff3d;
+  background: #24ff1f;
 }
 .feed-link,
 .chat {
@@ -2737,7 +2737,4 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
-}
-.image-size-400 {
-  width: 400px;
 }

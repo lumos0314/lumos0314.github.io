@@ -96,6 +96,17 @@
 
 
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
   <meta name="description" content="记得2016年左右我曾尝试用duet把iPad Air2作为Macbook的扩展屏，那时候由于duet刚在App Store推出不久且是付费软件，用户并没有太多，我的使用频率也不高。自从我把设备升级成iPad Pro和Macbook Pro后，因为这两款更新后的设备屏幕尺寸大、屏占比大，所以没有把iPad作为扩展屏的必要。今年九月份苹果即将推出macOS Catalina以取代macOS Moja">
 <meta name="keywords" content="App,duet,iPadPro,MacbookPro">
 <meta property="og:type" content="article">
@@ -495,6 +506,34 @@
             </span>
           
 
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">687</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">1 分钟</span>
+              
+            </div>
           
 
           
@@ -901,7 +940,21 @@
   <span class="author" itemprop="copyrightHolder">吕星翰</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">27k</span>
+  
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">24 分钟</span>
   
 </div>
 
@@ -1432,7 +1485,7 @@ if ($('body').find('div.pdf').length) {
   <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
   <script>
   
-    bookmark.scrollToMark('manual', "#更多");
+    bookmark.scrollToMark('auto', "#更多");
   
   </script>
 

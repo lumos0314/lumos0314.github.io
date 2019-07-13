@@ -96,6 +96,17 @@
 
 
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
   <meta name="description" content="VSCode真的是一款强大的编程软件：它拥有众多类型的扩展和第三方库以及支持众多编程语言。在搭建并配置博客的过程中，本地静态博客的配置文件比如.yml.json.css.swig等各种格式的文件都可以用它打开并修改。如果它拥有一个更为漂亮简洁的UI界面，那势必会使生产力翻倍了！所以当我网上冲浪🏄并留意到美化VS Code界面的关键词时…!!! 本文介绍如何实现VS Code界面的毛玻璃效果~">
 <meta name="keywords" content="VS Code">
 <meta property="og:type" content="article">
@@ -495,6 +506,34 @@
             </span>
           
 
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">4k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">4 分钟</span>
+              
+            </div>
           
 
           
@@ -917,7 +956,21 @@
   <span class="author" itemprop="copyrightHolder">吕星翰</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">27k</span>
+  
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">24 分钟</span>
   
 </div>
 
@@ -1448,7 +1501,7 @@ if ($('body').find('div.pdf').length) {
   <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
   <script>
   
-    bookmark.scrollToMark('manual', "#更多");
+    bookmark.scrollToMark('auto', "#更多");
   
   </script>
 
